@@ -42,6 +42,9 @@ public class MySimpleJob implements SimpleJob {
                  * 这就比较麻烦了
                  */
 
+
+                //测试    。。。。。。。。。。
+
                 // 执行定时任务1
                 System.out.println("000000");
                 break;
