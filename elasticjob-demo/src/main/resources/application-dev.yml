@@ -1,13 +1,14 @@
 spring:
   elasticjob:
     datasource:
-      url: jdbc:mysql://127.0.0.1:3306/elasticjob_log?useUnicode=true&characterEncoding=utf-8&verifyServerCertificate=false&useSSL=false&requireSSL=false
+      url: jdbc:mysql://127.0.0.1:3306/elastic_job_demo?serverTimezone=UTC&characterEncoding=utf-8&allowMultiQueries=true
       driver-class-name: com.mysql.jdbc.Driver
       username: root
-      password: 123123
+      password: 123456
     regCenter:
       serverList: 127.0.0.1:2181
       namespace: elasticJobDemo
+    # 注意下面的 scheduled 是通过 PropertiesSimpleConfig 的方式的，其他的时候这样配置了也没有什么作用
     scheduled:
       jobConfigMap:
         myJobConfig:

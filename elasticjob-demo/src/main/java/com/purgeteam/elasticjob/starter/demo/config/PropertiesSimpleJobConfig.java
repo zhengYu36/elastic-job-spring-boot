@@ -11,6 +11,7 @@ import javax.annotation.Resource;
  * @author purgeyao
  * @since 1.0
  */
+//这个表示目前不用这种方式，被注释掉了
 //@Configuration
 public class PropertiesSimpleJobConfig {
 

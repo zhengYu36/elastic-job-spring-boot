@@ -9,6 +9,7 @@ import com.purgeteam.elasticjob.starter.demo.scheduled.MySimpleJob;
 import com.purgeteam.elasticjob.starter.util.ElasticJobUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
 import javax.annotation.Resource;
 
@@ -16,7 +17,12 @@ import javax.annotation.Resource;
  * @author purgeyao
  * @since 1.0
  */
-//@Configuration
+
+/**
+ * 注意这个里面写了很多例子，如果要用就用  @Configuration
+ * 才使用，如果不使用，就不用哈
+ */
+@Configuration
 public class MyJobConfig {
 
     private static final String JOB_NAME = "MySimpleJob";

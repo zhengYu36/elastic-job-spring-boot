@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
  * @since 1.0
  */
 @Slf4j
-@Component
+//@Component
 public class PropertiesSimpleJob implements SimpleJob {
 
     @Override

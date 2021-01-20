@@ -10,13 +10,13 @@ import lombok.extern.slf4j.Slf4j;
  * @since 1.0
  */
 @Slf4j
-@ElasticJobScheduler(
+/*@ElasticJobScheduler(
         name = "AnnotationSimpleJob2"
         , cron = "0/8 * * * * ?"
         , shardingItemParameters = "0=Beijing,1=Shanghai,2=Guangzhou"
         , jobParameters = "123"
         , isEvent = false
-)
+)*/
 public class AnnotationSimpleJob2 implements SimpleJob {
 
     //    @Transactional(rollbackForClassName = {"RuntimeException", "Exception"})
