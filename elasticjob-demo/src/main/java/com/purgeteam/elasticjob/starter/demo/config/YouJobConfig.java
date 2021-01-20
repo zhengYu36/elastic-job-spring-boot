@@ -9,6 +9,7 @@ import com.purgeteam.elasticjob.starter.demo.scheduled.YouSimpleJob;
 import com.purgeteam.elasticjob.starter.util.ElasticJobUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
 import javax.annotation.Resource;
 
@@ -16,7 +17,7 @@ import javax.annotation.Resource;
  * @author purgeyao
  * @since 1.0
  */
-//@Configuration
+@Configuration
 public class YouJobConfig {
 
     private static final String JOB_NAME = "youSimpleJob";

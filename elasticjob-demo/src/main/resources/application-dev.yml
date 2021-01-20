@@ -8,24 +8,3 @@ spring:
     regCenter:
       serverList: 127.0.0.1:2181
       namespace: elasticJobDemo
-    # 注意下面的 scheduled 是通过 PropertiesSimpleConfig 的方式的，其他的时候这样配置了也没有什么作用
-    scheduled:
-      jobConfigMap:
-        myJobConfig:
-          jobName: myJobConfig
-          cron: 123
-          shardingTotalCount: 1
-          shardingItemParameters: 0=Beijing,1=Shanghai,2=Guangzhou
-          jobParameters: 1
-        youJobConfig:
-          jobName: youJobConfig
-          cron: 123
-          shardingTotalCount: 1
-          shardingItemParameters: 0=Beijing,1=Shanghai,2=Guangzhou
-          jobParameters: 1
-        PropertiesSimpleJob:
-          jobName: PropertiesSimpleJob
-          cron: 0 0/1 * * * ?
-          shardingTotalCount: 1
-          shardingItemParameters: 0=Beijing,1=Shanghai,2=Guangzhou
-          jobParameters: test

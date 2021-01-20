@@ -46,14 +46,14 @@ public class MySimpleJob implements SimpleJob {
                 //测试    。。。。。。。。。。
 
                 // 执行定时任务1
-                System.out.println("000000");
+                System.out.println("mysimple 000000");
                 break;
             case 1:
                 //执行定时任务2
-                System.out.println("1111111");
+                System.out.println("mysimple 1111111");
                 break;
             case 2:
-                System.out.println("222222");
+                System.out.println("mysimple 222222");
                 // do something by sharding item 2
                 break;
             default:
